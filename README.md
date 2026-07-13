@@ -19,10 +19,3 @@ Just run it—the script auto-detects your Y1 and makes a playlist `.m3u` file f
 ```bash
 chmod +x autom3u.sh
 ./autom3u.sh
-
-Modifying File Formats
-
-If you need to add or change supported file types, look inside the script for the find command section. You can add or modify formats by following this pattern:
-Bash
-
--iname "*.mp3" -o -iname "*.flac" -o -iname "*.your_format"
